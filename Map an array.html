@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <link href="ab.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <p id="12"></p>
+    <script>
+    var numbers=[1,2,3,4,5]
+    function myfunc(n){
+        return n*10
+    }
+    var newarray=numbers.map(myfunc)
+    document.getElementById("12").innerHTML=newarray
+    </script>
+</body>
+</html>

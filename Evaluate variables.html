@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <link href="ab.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <button onclick="myfunc()">Click</button>
+    <p id="bh"></p>
+    <script>
+    function myfunc(){
+        var x=3
+        var y=6
+        var a=eval(x+y)+"<br>"
+        var b=eval(2*2)+"<br>"
+        var c=eval(x-y)+"<br>"
+        var result=a+b+c+b
+        document.getElementById("bh").innerHTML=result
+    }
+    </script>
+</body>
+</html>
